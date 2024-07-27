@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(167, 107, 167);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: blueviolet;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    margin-right: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.details {
+    flex: 1;
+}
+
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgb(29, 17, 29);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
